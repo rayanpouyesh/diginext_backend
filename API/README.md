@@ -6,3 +6,8 @@
 
 ```bash
 pip install -r requirements.txt
+```
+سپس پروژه را اجرا کنید:
+```bash
+python routes.py
+```
