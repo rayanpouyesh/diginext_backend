@@ -1,0 +1,19 @@
+POST /follow
+Body:
+{
+    "follower_id": 1,
+    "followed_id": 2
+}
+POST /unfollow
+Body:
+{
+    "follower_id": 1,
+    "followed_id": 2
+}
+GET /followers/<user_id>
+POST /common_followers
+Body:
+{
+    "user1_id": 1,
+    "user2_id": 2
+}
